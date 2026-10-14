@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Gambar Panda -->
+        <div class="foto">
+            <div class="panda">🐼</div>
+        </div>
+
+        <!-- Nama -->
+        <h1>Fatiya Meilindasari</h1>
+
+        <p class="npm">NIM: 25161562019</p>
+        <p class="prodi">Program Studi Informatika</p>
+
+        <h2>Tentang Saya</h2>
+
+        <p class="deskripsi">
+            Saya adalah mahasiswa yang tertarik pada teknologi,
+            desain, dan pemrograman website. Saya senang mempelajari
+            hal baru dan mengembangkan kemampuan di bidang teknologi.
+        </p>
+
+        <h2>Hobi</h2>
+
+        <ul>
+            <li>Running</li>
+            <li>Berenang</li>
+            <li>Mendaki</li>
+            <li>Mendengarkan musik</li>
+        </ul>
+
+        <h2>Media Sosial</h2>
+
+        <a class="instagram" href="#">
+            Instagram
+        </a>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #dff6ff,
+        #fce1ff,
+        #fff4d6
+    );
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    padding: 35px;
+    background-color: white;
+
+    border-radius: 30px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+    border: 5px solid #f3e5ff;
+}
+
+/* Foto Panda */
+.foto {
+    width: 130px;
+    height: 130px;
+
+    margin: auto;
+
+    background-color: #d9f7df;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 5px solid #b8e8c0;
+}
+
+.panda {
+    font-size: 75px;
+}
+
+/* Nama */
+h1 {
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 27px;
+}
+
+.npm {
+    color: #777;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.prodi {
+    color: #888;
+    margin-top: 5px;
+}
+
+/* Judul */
+h2 {
+    color: #7b5ea7;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+/* Deskripsi */
+.deskripsi {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* Hobi */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f3eaff;
+    color: #6b528c;
+
+    margin: 8px auto;
+    padding: 8px;
+
+    width: 70%;
+
+    border-radius: 15px;
+}
+
+/* Instagram */
+.instagram {
+    display: inline-block;
+
+    padding: 10px 25px;
+
+    background-color: #ffd6e7;
+
+    color: #a64d73;
+
+    text-decoration: none;
+
+    border-radius: 20px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.instagram:hover {
+    background-color: #f5aeca;
+    transform: scale(1.05);
+}
